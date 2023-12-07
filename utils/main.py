@@ -8,7 +8,9 @@ import importlib
 import os
 import socket
 import sys
-
+###
+os.environ['WANDB_API_KEY'] = '67265bb3f10a02ce2167c5006180fd57e2598daa'
+##
 
 mammoth_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(mammoth_path)
